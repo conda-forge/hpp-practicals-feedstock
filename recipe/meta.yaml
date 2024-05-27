@@ -30,6 +30,7 @@ requirements:
     - libboost-devel
     - hpp-plot {{ version }}
     - hpp-gepetto-viewer {{ version }}
+    - hpp-gui {{ version }}
     - qt-main
   run:
 
