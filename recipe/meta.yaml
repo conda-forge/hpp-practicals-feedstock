@@ -26,6 +26,7 @@ requirements:
   host:
     - libboost-devel
     - hpp-plot {{ version }}
+    - hpp-gepetto-viewer {{ version }}
   run:
 
 test:
