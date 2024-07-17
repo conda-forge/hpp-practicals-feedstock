@@ -1,5 +1,5 @@
 {% set name = "hpp-practicals" %}
-{% set version = "5.0.0" %}
+{% set version = "5.1.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/humanoid-path-planner/{{ name }}/releases/download/v{{ version }}/hpp_practicals-{{ version }}.tar.gz
-  sha256: ebe5db5317f0b2680efd7d9936366bc83bd00400341055b39c60a1c6ebdf775e
+  sha256: 71d5a57f87ead001dda1f66bd278b88b28c9cfbc406fee1755809e3724f81b24
 
 build:
   number: 0
@@ -40,8 +40,8 @@ test:
 
 about:
   home: https://github.com/humanoid-path-planner/{{ name }}
-  license: LGPL-3.0-or-later
-  license_file: COPYING
+  license: BSD-2-Clause
+  license_file: LICENSE
   summary: {{ name }} subpackage of Humanoid Path Planner suite
   description: |
     HPP (Humanoid Path Planner) is a collection of software packages implementing
