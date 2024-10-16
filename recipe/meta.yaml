@@ -34,6 +34,10 @@ requirements:
     - hpp-gui {{ version }}
     - qt-main
 
+test:
+  requires:
+  commands:
+
 about:
   home: https://github.com/humanoid-path-planner/{{ name }}
   license: BSD-2-Clause
